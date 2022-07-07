@@ -1,0 +1,191 @@
+/*Body*/
+/* line 3, mini-opgave/CSS/style.scss */
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0; }
+
+/*Wrapper*/
+/* line 12, mini-opgave/CSS/style.scss */
+.wrapper {
+  margin: 0 auto; }
+
+/*Header*/
+/* line 19, mini-opgave/CSS/style.scss */
+header {
+  background-image: url(/IMG/navigation_background.png);
+  height: 150px;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+/*Logo*/
+/* line 31, mini-opgave/CSS/style.scss */
+.logo {
+  padding-top: 1%; }
+
+/*Nav Start*/
+/* line 38, mini-opgave/CSS/style.scss */
+nav {
+  padding-top: 2%; }
+  /* line 40, mini-opgave/CSS/style.scss */
+  nav li {
+    list-style: none;
+    display: inline-block; }
+  /* line 44, mini-opgave/CSS/style.scss */
+  nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 18px;
+    color: #777777;
+    font-weight: bold; }
+    /* line 50, mini-opgave/CSS/style.scss */
+    nav a:hover {
+      color: #000; }
+
+/*Nav end*/
+/*Main*/
+/* line 62, mini-opgave/CSS/style.scss */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(/IMG/main_background.png); }
+
+/*Section */
+/* line 72, mini-opgave/CSS/style.scss */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  /* line 76, mini-opgave/CSS/style.scss */
+  section article {
+    width: 25%;
+    background-color: #f1f1f1;
+    opacity: 0.8; }
+  /* line 81, mini-opgave/CSS/style.scss */
+  section p {
+    padding-left: 17%;
+    padding-right: 17%;
+    font-weight: bold; }
+
+/*Slideshow*/
+/* line 91, mini-opgave/CSS/style.scss */
+.slideshow {
+  width: 68%; }
+  /* line 93, mini-opgave/CSS/style.scss */
+  .slideshow img:hover {
+    transform: scale(1.1); }
+
+/*Produkter CSS*/
+/* line 101, mini-opgave/CSS/style.scss */
+.produkterMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  /* line 105, mini-opgave/CSS/style.scss */
+  .produkterMain img {
+    width: 49%;
+    margin-bottom: 1px; }
+  /* line 109, mini-opgave/CSS/style.scss */
+  .produkterMain img:hover {
+    transform: scale(1.1); }
+
+/*Info box ( 3 billder )*/
+/* line 118, mini-opgave/CSS/style.scss */
+.info img {
+  border: solid white 2.9px;
+  width: 415px; }
+
+/* line 122, mini-opgave/CSS/style.scss */
+.info img:hover {
+  transform: scale(1.1); }
+
+/* line 125, mini-opgave/CSS/style.scss */
+.info img:nth-child(1) {
+  margin-right: 20px; }
+
+/* line 128, mini-opgave/CSS/style.scss */
+.info img:nth-child(2) {
+  margin-right: 15px; }
+
+/* line 131, mini-opgave/CSS/style.scss */
+.info h2 {
+  position: absolute;
+  top: 600px;
+  left: 750px;
+  font-size: 3em; }
+
+/* line 138, mini-opgave/CSS/style.scss */
+.info h2 span {
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: black;
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px; }
+
+/* line 147, mini-opgave/CSS/style.scss */
+.info h2 span.spancer {
+  padding: 0 5px; }
+
+/*Club BS CSS*/
+/* line 155, mini-opgave/CSS/style.scss */
+.clubBS {
+  width: 500px; }
+  /* line 157, mini-opgave/CSS/style.scss */
+  .clubBS img {
+    width: 100%; }
+
+/* line 162, mini-opgave/CSS/style.scss */
+.Clubtext {
+  background-color: #f1f1f1;
+  opacity: 0.7; }
+  /* line 165, mini-opgave/CSS/style.scss */
+  .Clubtext p:hover {
+    background-color: lightgray; }
+
+/*Footer*/
+/* line 173, mini-opgave/CSS/style.scss */
+footer {
+  height: 55px;
+  background-image: url(/IMG/footer_background.png);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+/*Form*/
+/* line 184, mini-opgave/CSS/style.scss */
+form {
+  width: 21%;
+  padding-left: 4%; }
+
+/* line 189, mini-opgave/CSS/style.scss */
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+/* line 200, mini-opgave/CSS/style.scss */
+input[type=submit] {
+  width: 100%;
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+/* line 211, mini-opgave/CSS/style.scss */
+input[type=submit]:hover {
+  background-color: forestgreen; }
+
+/*# sourceMappingURL=style.css.map */

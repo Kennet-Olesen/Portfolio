@@ -1,0 +1,213 @@
+/*Body*/
+
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Wrapper*/
+
+.wrapper {
+    margin: 0 auto;
+}
+
+
+/*Header*/
+
+header {
+    background-image: url(/IMG/navigation_background.png);
+    height: 150px;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/*Logo*/
+
+.logo {
+    padding-top: 1%;
+}
+
+
+/*Nav Start*/
+
+nav {
+    padding-top: 2%;
+    li {
+        list-style: none;
+        display: inline-block;
+    }
+    a {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-right: 18px;
+        color: #777777;
+        font-weight: bold;
+        &:hover {
+            color: #000;
+        }
+    }
+}
+
+
+/*Nav end*/
+
+
+/*Main*/
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(/IMG/main_background.png);
+}
+
+
+/*Section */
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    article {
+        width: 25%;
+        background-color: #f1f1f1;
+        opacity: 0.8;
+    }
+    p {
+        padding-left: 17%;
+        padding-right: 17%;
+        font-weight: bold;
+    }
+}
+
+
+/*Slideshow*/
+
+.slideshow {
+    width: 68%;
+    img:hover {
+        transform: scale(1.1);
+    }
+}
+
+
+/*Produkter CSS*/
+
+.produkterMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    img {
+        width: 49%;
+        margin-bottom: 1px;
+    }
+    img:hover {
+        transform: scale(1.1);
+    }
+}
+
+
+/*Info box ( 3 billder )*/
+
+.info {
+    img {
+        border: solid white 2.9px;
+        width: 415px;
+    }
+    img:hover {
+        transform: scale(1.1);
+    }
+    img:nth-child(1) {
+        margin-right: 20px;
+    }
+    img:nth-child(2) {
+        margin-right: 15px;
+    }
+    h2 {
+        position: absolute;
+        top: 600px;
+        left: 750px;
+        font-size: 3em;
+        width: 100%;
+    }
+    h2 span {
+        color: white;
+        font: bold 24px/45px Helvetica, Sans-Serif;
+        letter-spacing: -1px;
+        background: rgb(0, 0, 0);
+        /* fallback color */
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+    }
+    h2 span.spancer {
+        padding: 0 5px;
+    }
+}
+
+
+/*Club BS CSS*/
+
+.clubBS {
+    width: 500px;
+    img {
+        width: 100%;
+    }
+}
+
+.Clubtext {
+    background-color: #f1f1f1;
+    opacity: 0.7;
+    p:hover {
+        background-color: lightgray;
+    }
+}
+
+
+/*Footer*/
+
+footer {
+    height: 55px;
+    background-image: url(/IMG/footer_background.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/*Form*/
+
+form {
+    width: 21%;
+    padding-left: 4%;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: forestgreen;
+}

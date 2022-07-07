@@ -1,0 +1,112 @@
+/* line 1, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+html {
+  font-size: 62.5%; }
+
+/* line 5, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+img {
+  max-width: 100%; }
+
+/* line 9, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+body {
+  margin: 0;
+  background-image: url("../IMG/background-img.jpg"); }
+
+/* line 14, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+/* line 20, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end; }
+
+/* line 26, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+nav {
+  display: flex;
+  margin-left: auto;
+  background-color: rgba(0, 0, 0, 0.5); }
+  /* line 30, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+  nav ul {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    /* line 33, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+    nav ul li {
+      list-style: none; }
+      /* line 35, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+      nav ul li a {
+        text-decoration: none;
+        padding: 18px;
+        font-size: 2.2rem;
+        color: #FFFFFF; }
+
+/* line 46, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+a:hover {
+  background-color: rgba(119, 137, 139, 0.7); }
+
+/* line 50, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+main {
+  max-width: 1080px;
+  display: flex;
+  margin: 0 auto;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 100px; }
+
+/* line 60, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+.block {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  color: #dad4d6;
+  background-color: rgba(41, 47, 61, 0.7);
+  margin-left: 10px; }
+
+/* line 70, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+.block-header {
+  color: #94aaac;
+  padding-left: 5px; }
+
+/* line 75, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+.block-Text {
+  font-size: 14px;
+  padding: 10px;
+  margin: 0; }
+
+/* line 81, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+.flex-parent {
+  display: flex; }
+
+/* line 85, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+.flex-25 {
+  width: calc((100% / 100) * 25); }
+
+/* line 89, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+.flex-33 {
+  width: calc((100% / 100) * 33); }
+
+/* line 93, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+.flex-50 {
+  width: calc((100% / 100) * 50); }
+
+/* line 97, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+.flex-61 {
+  width: calc((100% / 100) * 61); }
+
+/* line 101, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+.flex-66 {
+  width: calc((100% / 100) * 66); }
+
+/* line 105, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+.flex-75 {
+  width: calc((100% / 100) * 75); }
+
+/* line 109, ../../Hjemmesider/Game of Thrones Flexbox/CSS/Styles.scss */
+footer {
+  color: #FFF;
+  text-align: center; }
+
+/*# sourceMappingURL=Styles.css.map */

@@ -1,0 +1,212 @@
+/* line 1, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+img {
+  max-width: 100%; }
+
+/* line 5, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+body {
+  min-height: 100vh; }
+
+/* line 9, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+body:before {
+  z-index: -1;
+  content: "";
+  background-image: url(../images/site-background.jpg);
+  background-size: cover;
+  filter: blur(5px);
+  min-height: 100vh;
+  position: absolute;
+  width: 100%; }
+
+/* Header */
+/* line 22, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+header {
+  height: 200px; }
+
+/* LOGO*/
+/* line 28, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.MenuLogo {
+  width: 7%;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 115px; }
+  /* line 34, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+  .MenuLogo img {
+    width: 100%; }
+
+/*NAV */
+/* line 42, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+nav ul {
+  display: flex;
+  background-color: black;
+  list-style-type: none;
+  position: absolute;
+  left: 240px;
+  width: 70%;
+  top: 95px; }
+  /* line 50, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+  nav ul li {
+    list-style: none;
+    padding: 1%;
+    margin-left: 3%; }
+    /* line 54, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+    nav ul li a {
+      text-transform: uppercase;
+      color: white;
+      line-height: 30px;
+      font-size: 1.6em;
+      font-weight: bold;
+      font-family: century gothic;
+      text-decoration: none; }
+      /* line 62, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+      nav ul li a:hover {
+        text-decoration: underline; }
+      /* line 65, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+      nav ul li a a:not(::last-child) {
+        padding-right: 10px; }
+    /* line 69, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+    nav ul li:last-child {
+      margin-left: auto;
+      background-color: red; }
+
+/*HEADER TEXT*/
+/* line 80, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+span h1 {
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-size: 3.5em;
+  margin-top: 3%; }
+
+/*SILVERSTONE CSS*/
+/* line 91, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.imageText {
+  display: flex;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  justify-content: center; }
+  /* line 96, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+  .imageText p {
+    color: white;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px; }
+
+/* Main */
+/* line 109, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+main {
+  background: rgba(0, 0, 0, 0.7); }
+  /* line 112, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+  main .wrapper {
+    flex: 1; }
+
+/* STRIPES */
+/* line 119, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.pattern {
+  min-height: 20px; }
+
+/* line 123, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.stripes10 {
+  background-image: repeating-linear-gradient(150deg, red, red 20px, #dbdbdb 20px, #dbdbdb 35px); }
+
+/*Flexbox*/
+/* line 129, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.flexContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  max-width: 1080px;
+  margin: 0 auto; }
+  /* line 135, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+  .flexContainer .content-item {
+    color: white; }
+
+/* line 140, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.content-item h2 {
+  background: url(../images/icon-stribes.png) no-repeat;
+  padding-left: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 24px; }
+
+/* line 148, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.block {
+  display: flex;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  margin-bottom: 18.7px;
+  width: 100%; }
+
+/* line 156, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.block-hd {
+  margin-right: 10px;
+  max-width: 60px;
+  background-color: grey; }
+
+/* line 162, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.block-hdd {
+  max-width: 270px;
+  justify-content: center;
+  margin: 0; }
+
+/* line 168, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.block-bd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+/* line 174, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.block-border-1 {
+  border-right: 2px solid teal; }
+
+/* line 177, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.block-border-2 {
+  border-right: 2px solid red; }
+
+/* line 180, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.block-border-3 {
+  border-right: 2px solid white; }
+
+/* line 183, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.block-border-4 {
+  border-right: 2px solid purple; }
+
+/* line 188, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.tracksinfo li {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  line-height: 1.5; }
+
+/* line 197, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.drivers {
+  font-size: 25px;
+  line-height: 1.5; }
+
+/* line 202, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.drivers h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 17px; }
+
+/* line 208, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.carbrands {
+  color: grey; }
+
+/* line 212, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+.block-landscape {
+  flex-direction: column;
+  width: 93%; }
+
+/* line 217, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+footer {
+  color: white;
+  background: rgba(0, 0, 0, 0.7); }
+  /* line 220, ../../../Hjemmesider/3.1 opgaver/uge 1/F1/CSS/styles.scss */
+  footer p {
+    text-align: center;
+    padding: 0;
+    margin: 0; }
+
+/*# sourceMappingURL=styles.css.map */
