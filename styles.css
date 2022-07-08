@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    background-image: BG.jpg;
+    background-image: url(BG.jpg);
     text-align: center;
 }
 a{
