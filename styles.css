@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     background-image: url(BG.jpg);
+    background-repeat: no-repeat;
     text-align: center;
 }
 a{
