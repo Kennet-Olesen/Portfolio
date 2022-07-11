@@ -15,15 +15,10 @@ html {
   background-size: cover;
 }
 
-/* Nav */
-nav {
-  text-align: center;
-  color: white;
-}
-
 /*  Links  */
-a a:visited {
+a {
   font-size: 30px;
+  color: white;
 }
 
 /* H1 */
