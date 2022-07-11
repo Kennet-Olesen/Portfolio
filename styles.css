@@ -1,25 +1,77 @@
-body, html{
-    height: 100%;}
-    .bg{
-    /* The image used */
-    background-image: url("BG.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  /*  Links  */
-a{
-    font-size: 30px;
+body,
+html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("BG.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*  Links  */
+a {
+  font-size: 30px;
 }
 
 /* H1 */
-.mid-Text{
-    text-align: center;
-    color: white;
-    
+.mid-Text {
+  text-align: center;
+  color: white;
+}
+
+/* Flex box CSS */
+
+.flex-parent {
+  display: flex;
+}
+
+.flex-25 {
+  width: calc((100% / 100) * 25);
+}
+
+.flex-33 {
+  width: calc((100% / 100) * 33);
+}
+
+.flex-50 {
+  width: calc((100% / 100) * 50);
+}
+
+.flex-61 {
+  width: calc((100% / 100) * 61);
+}
+
+.flex-66 {
+  width: calc((100% / 100) * 66);
+}
+
+.flex-75 {
+  width: calc((100% / 100) * 75);
+}
+
+/* Block - Block Header - Block text */
+.block {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  color: #dad4d6;
+  background-color: rgba(41, 47, 61, 0.7);
+  margin-left: 10px;
+}
+
+.block-header {
+  color: #94aaac;
+  padding-left: 5px;
+}
+
+.block-Text {
+  font-size: 14px;
+  padding: 10px;
+  margin: 0;
 }
