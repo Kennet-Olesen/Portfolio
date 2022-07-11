@@ -12,6 +12,14 @@ body, html{
     background-repeat: no-repeat;
     background-size: cover;
   }
+  /*  Links  */
 a{
     font-size: 30px;
+}
+
+/* H1 */
+.mid-Text{
+    text-align: center;
+    color: white;
+    
 }
