@@ -22,7 +22,7 @@ nav {
 }
 
 /*  Links  */
-a {
+a a:visited {
   font-size: 30px;
 }
 
@@ -89,7 +89,7 @@ main {
   margin-left: 20px;
 }
 
-.block-header a:visited {
+.block-header {
   color: white;
   text-align: center;
 }
