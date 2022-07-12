@@ -78,7 +78,7 @@ main {
 
 /* Flexbox Child */
 .child {
-  flex: 1 0 61%; /* explanation below */
+  flex: 1 0 21%; /* explanation below */
   margin: 5px;
 }
 
